@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+    <!-- Pour importer juste ce que tu veux -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    </head>
+<body>
+      <!-- Navbar fullwidth  fixed -->
+<nav class="navbar  is-fixed-top">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+        <img src="ressources/html-coding.png" alt="logo">
+        </a>
+        <div class="navbar-burger burger" id="btnNav" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+    </div>
+    
+    <div id="menuContent" class="navbar-menu">
+        <div class="navbar-start">
+        <a class="navbar-item" href="#">
+            Accueil
+        </a>
+        </div>
+    
+        <div class="navbar-end">
+
+            <a class="navbar-item" href="#about">
+                À Propos
+            </a>
+            <a class="navbar-item" href="#portfolio">
+                Mes Réalisations
+            </a>
+            <a class="navbar-item" href="#contact">
+                Contact
+            </a>                     
+
+        </div>
+    </div>
+    </nav>
+
+<!-- Section Hero home -->
+<!-- on change le point de break de 768px à 1023px -->
+<div class="columns has-background-link is-desktop">
+    <div class="column is-6-desktop">  
+
+        <section id="home" class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h2 class="subtitle has-text-white">Bonjour</h2>
+                    <h1 class="title is-1 has-text-white">Je suis Alix</h1>
+                    <h2 class="subtitle is-2 has-text-white">Un dev Front-End de plus !</h2>
+                    <button class="button is-danger is-rounded is-medium has-text-white">Contacte-moi !</button>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <div class="column is-6-desktop has-text-centered">
+        <img src="ressources/homeImg2.jpg" alt="img accueil">
+    </div>
+</div>
+
+    <!-- Section à Propos -->
+<br id="about">
+<br>
+<section class="container">
+<h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Qui suis-je ?</h2>
+<!-- 128x128 donne hauteur et largeur 128x128 -->
+<!-- image donne display block -->
+<figure class="image container is-128x128">
+        <img class="is-rounded is-centered" src="ressources/kisspng-logo-computer-icons-clip-art-white-hat-hacker-icon-5b501129ee38e6.3089293815319739299758.jpg">
+</figure>
+<br>
+<div class="columns is-centered">
+    <p class="column is-6 has-text-justified">
+        Diplômé d'un Master dans les médias numériques et le multimédia depuis 2015, j'ai toujours codé en amateur pour des projets personnels ainsi que mon site internet professionnel. En 2020, je décide donc de me reconvertir dans le développement Web. Développeur Frontend à votre service pour petits et grand projets !
+    </p>
+</div>
+</section>
+<br id="portfolio"><br>
+<!-- Section Réalisations -->
+<hr>
+<section class="container">
+<h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Mes Réalisations</h2>
+    
+<div class="columns is-multiline is-centered is-mobile">
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+            <!-- SASS PROJECT -->
+            <a href="https://adv13.github.io/OhMyFood-Website/" class="card is-shadowless">
+                    <div class="card-image  has-background-white">
+                        <figure class="image ">
+                        <img src="ressources/Sass.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content has-background-white">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">OhMyFood Website</p>
+                            <p class="subtitle is-6">@Adv13</p>
+                        </div>
+                        </div>
+                    
+                        <div class="content">
+                        Project made with HTML/CSS/SASS. <a>@github.com/Adv13</a>.
+                        <br>
+                        <a href="#">#css</a> <a href="#">#responsive</a> <a href="#">#sass</a>
+                        <br>
+                        <time datetime="2021-09-30">11:09 PM - 30 Sept 2021</time>
+                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+            <!-- REACT PROJECT -->
+                <a href="#" class="card is-shadowless">
+                        <div class="card-image has-background-white">
+                            <figure class="image ">
+                            <img src="ressources/React.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-white">
+                            <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Work in progress</p>
+                                <p class="subtitle is-6">@Adv13</p>
+                            </div>
+                            </div>
+                        
+                            <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@github.com/Adv13</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                            </div>
+                    </div>
+                </a>
+        </div>
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+            <!-- BULMA PROJECT -->
+                <a href="https://adv13.github.io/Activities-Montreal-Website/" class="card is-shadowless">
+                        <div class="card-image has-background-white">
+                            <figure class="image ">
+                            <img src="ressources/bulma-banner.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-white">
+                            <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Activities Website</p>
+                                <p class="subtitle is-6">@Adv13</p>
+                            </div>
+                            </div>
+                        
+                            <div class="content">
+                            Website made (with pictures taken by myself when was in a Working Holiday Visa at Montreal) in order to try the Bulma CSS Framework. <a>@github.com/Adv13</a>.
+                            <br>
+                            <a href="#">#css</a> <a href="#">#responsive</a><a href="#">#bulma</a><a href="#">#framework</a>
+                            <br>
+                            <time datetime="2022-2-14">11:09 PM - 14 Fev 2022</time>
+                            </div>
+                    </div>
+                </a>
+        </div>
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+            <!-- DJANGO PROJECT -->
+                <a href="#" class="card is-shadowless">
+                        <div class="card-image has-background-white">
+                            <figure class="image ">
+                            <img src="ressources/1_slHeZngyeUr7ypEz7MNL5w.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-white">
+                            <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Work in progress</p>
+                                <p class="subtitle is-6">@Adv13</p>
+                            </div>
+                            </div>
+                        
+                            <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@github.com/Adv13</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                            </div>
+                    </div>
+                </a>
+        </div>
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+            <!-- JAVASCRIPT PROJECT -->
+                <a href="https://adv13.github.io/GameOn-Website/" class="card is-shadowless">
+                        <div class="card-image has-background-white">
+                            <figure class="image ">
+                            <img src="ressources/JavaScript.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-white">
+                            <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">GameOn Website</p>
+                                <p class="subtitle is-6">@Adv13</p>
+                            </div>
+                            </div>
+                        
+                            <div class="content">
+                            Project made with HTML/CSS/JS in order to create a functional modal. <a>@github.com/Adv13</a>.
+                            <br>
+                            <a href="#">#css</a> <a href="#">#responsive</a><a href="#">#javascript</a>
+                            <br>
+                            <time datetime="2021-11-5">11:09 PM - 5 Nov 2021</time>
+                            </div>
+                    </div>
+                </a>
+        </div>
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+            <!-- ANGULAR PROJECT -->
+                <a href="#" class="card is-shadowless">
+                        <div class="card-image has-background-white">
+                            <figure class="image ">
+                            <img src="ressources/AngularJS_logo.svg.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Work in progress</p>
+                                <p class="subtitle is-6">@Adv13</p>
+                            </div>
+                            </div>
+                        
+                            <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@github.com/Adv13</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                            </div>
+                    </div>
+                </a>
+        </div>
+    </div>
+</div>
+</section>
+<br><br>
+
+<!-- Partie Contact -->
+<hr  id="contact">
+<br><br>
+<section class="container">
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Contactez-moi</h2>
+
+        <div class="field">
+                <label class="label">Nom</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Nom">
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label">Prenom</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="text" placeholder="Prenom">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" placeholder="Email input" value="hello@">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+              </div>
+              
+              
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="Votre message ..."></textarea>
+                </div>
+              </div>
+              
+
+
+              
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link">Envoyer !</button>
+                </div>
+                <div class="control">
+                  <button class="button is-text">Remettre à Zéro</button>
+                </div>
+              </div>
+</section>
+<br><br>
+<!-- Footer -->
+<footer class="footer has-background-link">
+        <div class="content has-text-centered has-text-white">
+          <p>
+            Tout droits réservés. License MIT.
+          </p>
+        </div>
+</footer>
+&copy;
+<script>
+
+        var btn = document.getElementById('btnNav');
+        var content = document.getElementById('menuContent');
+        console.log(content);
+        
+        btn.addEventListener('click', function(){
+            content.classList.toggle('is-active');
+        })
+        
+</script>
+    </body>
+</html>
